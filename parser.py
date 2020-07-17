@@ -1,18 +1,18 @@
-f = open('Quake.txt', 'r')
+abrir = open('Quake.txt', 'r')  #leitura do arquivo de texto
 totalKills = 0
 player = {}
 lista = []
 listaFinal = []
 i= 1
-for line in f:
-    line = line.strip() #remover espaços em brancos
+for linha in abrir:
+    linha = linha.strip()  #remover espaços em brancos
     
-    if line.count("ClientUserinfoChanged"): #armazenar nome do jogador numa variavel
+    if linha.count("ClientUserinfoChanged"):  #armazenar nome do jogador numa variavel
     
-        line2 = line.split("\\")  #dividir a linha em indices pela \\
-        nomeJogador = line2[1]
-        line = line.split(" ") #dividir a linha em indices pelo espaõ
-        idJogador = line[2]
+        resultadoLinha = linha.split("\\")  #dividir a linha em indices pela \\
+        nomeJogador = resultadoLinha[1]
+        linha = linha.split(" ")  #dividir a linha em indices pelo espaço
+        idJogador = linha[2]
         player = {}
         player['id'] = idJogador
         player['nome'] = nomeJogador
@@ -20,33 +20,33 @@ for line in f:
         if (len(lista)) == 0:
             lista.append(player)
 
-        for elm in lista:
+        for elemento in lista:  #verificar se o nome já existe, depois inclui-lo
             
-            if nomeJogador == elm['nome']:
+            if nomeJogador == elemento['nome']:
                 resultado = True
-                elm['nome'] = player['nome']
-                elm['id'] = idJogador
+                elemento['nome'] = player['nome']
+                elemento['id'] = idJogador
                 break
             else:
                 resultado = False
-            if idJogador == elm['id']:
-                elm['id'] = False
+            if idJogador == elemento['id']:
+                elemento['id'] = False
 
         if resultado == False:
             lista.append(player)
-    if line.count("Kill"):
+    if linha.count("Kill"):  #fazer a contagem de kills
         totalKills +=1
 
-        for elm in lista:
-            line2 = line.split(" ")
-            if elm['id'] == line2[2]:
+        for elemento in lista:
+            resultadoLinha = linha.split(" ")
+            if elemento['id'] == resultadoLinha[2]:
                
-                elm['kill'] +=1
+                elemento['kill'] +=1
 
-        if line2[2] == "1022":
-            elm['kill'] -=1
+        if resultadoLinha[2] == "1022":  #contagem de kills do world
+            elemento['kill'] -=1
 
-    if line.count("ShutdownGame"):
+    if linha.count("ShutdownGame"):  #encerrar game
         
         listaFinal.append('game '+str(i))
         listaFinal.append('total Kills '+str(totalKills))
@@ -56,5 +56,5 @@ for line in f:
         totalKills = 0
                
                 
-for verLista in listaFinal:
+for verLista in listaFinal:  #exibir lista
     print(verLista)
