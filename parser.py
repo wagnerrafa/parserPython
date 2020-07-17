@@ -35,12 +35,13 @@ for line in f:
         if resultado == False:
             lista.append(player)
     if line.count("Kill"):
+        totalKills +=1
+
         for elm in lista:
             line2 = line.split(" ")
             if elm['id'] == line2[2]:
                
                 elm['kill'] +=1
-                totalKills +=1
 
         if line2[2] == "1022":
             elm['kill'] -=1
