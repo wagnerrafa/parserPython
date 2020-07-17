@@ -29,4 +29,13 @@ for line in f:
                 resultado = False
         if resultado == False:
             lista.append(player)
-   
+    if line.count("ShutdownGame"):
+        
+        listaFinal.append('game '+str(i))
+        listaFinal.extend(lista)
+        i +=1
+        lista.clear()
+               
+                
+for teste in listaFinal:
+    print(teste)
