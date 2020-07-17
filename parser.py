@@ -16,7 +16,7 @@ for line in f:
         player = {}
         player['id'] = idJogador
         player['nome'] = nomeJogador
-        
+        player['kill'] = 0        
         if (len(lista)) == 0:
             lista.append(player)
 
@@ -24,18 +24,36 @@ for line in f:
             
             if nomeJogador == elm['nome']:
                 resultado = True
+                elm['nome'] = player['nome']
+                elm['id'] = idJogador
                 break
             else:
                 resultado = False
+            if idJogador == elm['id']:
+                elm['id'] = False
+
         if resultado == False:
             lista.append(player)
+    if line.count("Kill"):
+        for elm in lista:
+            line2 = line.split(" ")
+            if elm['id'] == line2[2]:
+               
+                elm['kill'] +=1
+                totalKills +=1
+
+        if line2[2] == "1022":
+            elm['kill'] -=1
+
     if line.count("ShutdownGame"):
         
         listaFinal.append('game '+str(i))
+        listaFinal.append('total Kills '+str(totalKills))
         listaFinal.extend(lista)
         i +=1
         lista.clear()
+        totalKills = 0
                
                 
-for teste in listaFinal:
-    print(teste)
+for verLista in listaFinal:
+    print(verLista)
