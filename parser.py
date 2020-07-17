@@ -1,6 +1,9 @@
 f = open('Quake.txt', 'r')
+totalKills = 0
 player = {}
-
+lista = []
+listaFinal = []
+i= 1
 for line in f:
     line = line.strip() #remover espaços em brancos
     
@@ -13,3 +16,17 @@ for line in f:
         player = {}
         player['id'] = idJogador
         player['nome'] = nomeJogador
+        
+        if (len(lista)) == 0:
+            lista.append(player)
+
+        for elm in lista:
+            
+            if nomeJogador == elm['nome']:
+                resultado = True
+                break
+            else:
+                resultado = False
+        if resultado == False:
+            lista.append(player)
+   
