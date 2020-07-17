@@ -1,3 +1,4 @@
+import json
 abrir = open('Quake.txt', 'r')  #leitura do arquivo de texto
 totalKills = 0
 player = {}
@@ -58,3 +59,7 @@ for linha in abrir:
                 
 for verLista in listaFinal:  #exibir lista
     print(verLista)
+
+
+with open('listaFinal.json', 'w') as json_file:  #criar arquivo em json
+    json.dump(listaFinal, json_file, indent=4)
