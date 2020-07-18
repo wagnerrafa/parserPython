@@ -4,10 +4,10 @@
         "total kills": 0,
         "players": [
             {
-                "nome": "Isgalamido",
                 "nomeAntigo": "",
-                "kill": 0,
-                "id": "2"
+                "nome": "Isgalamido",
+                "id": "2",
+                "kill": 0
             }
         ]
     },
@@ -16,16 +16,16 @@
         "total kills": 11,
         "players": [
             {
-                "nome": "Isgalamido",
                 "nomeAntigo": "",
-                "kill": 0,
-                "id": "2"
+                "nome": "Isgalamido",
+                "id": "2",
+                "kill": 0
             },
             {
-                "nome": "Mocinha",
                 "nomeAntigo": "Dono da Bola",
-                "kill": -5,
-                "id": "3"
+                "nome": "Mocinha",
+                "id": "3",
+                "kill": -5
             }
         ]
     },
@@ -34,22 +34,22 @@
         "total kills": 4,
         "players": [
             {
-                "nome": "Dono da Bola",
                 "nomeAntigo": "Mocinha",
-                "kill": 0,
-                "id": "2"
+                "nome": "Dono da Bola",
+                "id": "2",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 1,
-                "id": "3"
+                "id": "3",
+                "kill": 1
             },
             {
-                "nome": "Zeh",
                 "nomeAntigo": "",
-                "kill": -3,
-                "id": "4"
+                "nome": "Zeh",
+                "id": "4",
+                "kill": -3
             }
         ]
     },
@@ -58,28 +58,28 @@
         "total kills": 105,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 20,
-                "id": "2"
+                "id": "2",
+                "kill": 20
             },
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 27,
-                "id": "3"
+                "id": "3",
+                "kill": 27
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 18,
-                "id": "4"
+                "id": "4",
+                "kill": 18
             },
             {
-                "nome": "Assasinu Credi",
                 "nomeAntigo": "",
-                "kill": 0,
-                "id": "5"
+                "nome": "Assasinu Credi",
+                "id": "5",
+                "kill": 0
             }
         ]
     },
@@ -88,28 +88,28 @@
         "total kills": 14,
         "players": [
             {
-                "nome": "Zeh",
                 "nomeAntigo": "Dono da Bola",
-                "kill": 2,
-                "id": "2"
-            },
-            {
-                "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 2,
-                "id": "3"
-            },
-            {
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "4"
+                "id": "2",
+                "kill": 2
             },
             {
-                "nome": "Assasinu Credi",
                 "nomeAntigo": "",
-                "kill": 0,
-                "id": "5"
+                "nome": "Isgalamido",
+                "id": "3",
+                "kill": 2
+            },
+            {
+                "nomeAntigo": "",
+                "nome": "Zeh",
+                "id": "4",
+                "kill": 0
+            },
+            {
+                "nomeAntigo": "",
+                "nome": "Assasinu Credi",
+                "id": "5",
+                "kill": 0
             }
         ]
     },
@@ -118,40 +118,40 @@
         "total kills": 29,
         "players": [
             {
-                "nome": "Oootsimo",
                 "nomeAntigo": "Fasano Again",
-                "kill": 9,
-                "id": "2"
+                "nome": "Oootsimo",
+                "id": "2",
+                "kill": 9
             },
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 4,
-                "id": "3"
+                "id": "3",
+                "kill": 4
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 7,
-                "id": "4"
+                "id": "4",
+                "kill": 7
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 2,
-                "id": "5"
+                "id": "5",
+                "kill": 2
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "Maluquinho",
-                "kill": -1,
-                "id": "6"
+                "nome": "Mal",
+                "id": "6",
+                "kill": -1
             },
             {
-                "nome": "Assasinu Credi",
                 "nomeAntigo": "",
-                "kill": 0,
-                "id": "7"
+                "nome": "Assasinu Credi",
+                "id": "7",
+                "kill": 0
             }
         ]
     },
@@ -160,46 +160,46 @@
         "total kills": 130,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 24,
-                "id": "2"
+                "id": "2",
+                "kill": 24
             },
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 20,
-                "id": "3"
+                "id": "3",
+                "kill": 20
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 14,
-                "id": "4"
+                "id": "4",
+                "kill": 14
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 14,
-                "id": "5"
+                "id": "5",
+                "kill": 14
             },
             {
+                "nomeAntigo": "",
                 "nome": "Mal",
-                "nomeAntigo": "",
-                "kill": 9,
-                "id": "6"
+                "id": "6",
+                "kill": 9
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 16,
-                "id": "7"
+                "id": "7",
+                "kill": 16
             },
             {
-                "nome": "Chessus",
                 "nomeAntigo": "Chessus!",
-                "kill": -21,
-                "id": "8"
+                "nome": "Chessus",
+                "id": "8",
+                "kill": -21
             }
         ]
     },
@@ -208,40 +208,40 @@
         "total kills": 89,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 17,
-                "id": "2"
+                "id": "2",
+                "kill": 17
             },
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 24,
-                "id": "3"
+                "id": "3",
+                "kill": 24
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 15,
-                "id": "4"
+                "id": "4",
+                "kill": 15
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 5,
-                "id": "5"
+                "id": "5",
+                "kill": 5
             },
             {
+                "nomeAntigo": "",
                 "nome": "Mal",
-                "nomeAntigo": "",
-                "kill": 1,
-                "id": "6"
+                "id": "6",
+                "kill": 1
             },
             {
-                "nome": "Assasinu Credi",
                 "nomeAntigo": "",
-                "kill": -3,
-                "id": "7"
+                "nome": "Assasinu Credi",
+                "id": "7",
+                "kill": -3
             }
         ]
     },
@@ -250,40 +250,40 @@
         "total kills": 67,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 9,
-                "id": "2"
+                "id": "2",
+                "kill": 9
             },
             {
-                "nome": "Dono da Bola",
                 "nomeAntigo": "Isgalamido",
-                "kill": 2,
-                "id": "3"
+                "nome": "Dono da Bola",
+                "id": "3",
+                "kill": 2
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 15,
-                "id": "4"
+                "id": "4",
+                "kill": 15
             },
             {
-                "nome": "Chessus",
                 "nomeAntigo": "Chessus!",
-                "kill": 12,
-                "id": "5"
+                "nome": "Chessus",
+                "id": "5",
+                "kill": 12
             },
             {
+                "nomeAntigo": "",
                 "nome": "Mal",
-                "nomeAntigo": "",
-                "kill": 7,
-                "id": "6"
+                "id": "6",
+                "kill": 7
             },
             {
-                "nome": "Assasinu Credi",
                 "nomeAntigo": "",
-                "kill": 0,
-                "id": "7"
+                "nome": "Assasinu Credi",
+                "id": "7",
+                "kill": 0
             }
         ]
     },
@@ -292,46 +292,46 @@
         "total kills": 60,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 1,
-                "id": "2"
+                "id": "2",
+                "kill": 1
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 5,
-                "id": "3"
+                "id": "3",
+                "kill": 5
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 9,
-                "id": "4"
+                "id": "4",
+                "kill": 9
             },
             {
+                "nomeAntigo": "",
                 "nome": "Chessus",
-                "nomeAntigo": "",
-                "kill": 6,
-                "id": "5"
+                "id": "5",
+                "kill": 6
             },
             {
+                "nomeAntigo": "",
                 "nome": "Mal",
-                "nomeAntigo": "",
-                "kill": 6,
-                "id": "6"
+                "id": "6",
+                "kill": 6
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 3,
-                "id": "7"
+                "id": "7",
+                "kill": 3
             },
             {
-                "nome": "Isgalamido",
                 "nomeAntigo": "",
-                "kill": -6,
-                "id": "8"
+                "nome": "Isgalamido",
+                "id": "8",
+                "kill": -6
             }
         ]
     },
@@ -340,46 +340,46 @@
         "total kills": 20,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "3"
+                "id": "3",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 6,
-                "id": "2"
+                "id": "2",
+                "kill": 6
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "4"
+                "id": "4",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 4,
-                "id": "5"
+                "id": "5",
+                "kill": 4
             },
             {
+                "nomeAntigo": "",
                 "nome": "Chessus",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "6"
+                "id": "6",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": -5,
-                "id": "7"
+                "id": "7",
+                "kill": -5
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "UnnamedPlayer",
-                "kill": -1,
-                "id": "8"
+                "nome": "Mal",
+                "id": "8",
+                "kill": -1
             }
         ]
     },
@@ -388,46 +388,46 @@
         "total kills": 160,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 26,
-                "id": "2"
+                "id": "2",
+                "kill": 26
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 11,
-                "id": "3"
+                "id": "3",
+                "kill": 11
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 14,
-                "id": "4"
+                "id": "4",
+                "kill": 14
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 22,
-                "id": "5"
+                "id": "5",
+                "kill": 22
             },
             {
+                "nomeAntigo": "",
                 "nome": "Chessus",
-                "nomeAntigo": "",
-                "kill": 17,
-                "id": "6"
+                "id": "6",
+                "kill": 17
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 23,
-                "id": "7"
+                "id": "7",
+                "kill": 23
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "",
-                "kill": -31,
-                "id": "8"
+                "nome": "Mal",
+                "id": "8",
+                "kill": -31
             }
         ]
     },
@@ -436,46 +436,46 @@
         "total kills": 6,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "2"
+                "id": "2",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "3"
+                "id": "3",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 2,
-                "id": "4"
+                "id": "4",
+                "kill": 2
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 2,
-                "id": "5"
+                "id": "5",
+                "kill": 2
             },
             {
+                "nomeAntigo": "",
                 "nome": "Chessus",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "6"
+                "id": "6",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "7"
+                "id": "7",
+                "kill": 0
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "",
-                "kill": -2,
-                "id": "8"
+                "nome": "Mal",
+                "id": "8",
+                "kill": -2
             }
         ]
     },
@@ -484,46 +484,46 @@
         "total kills": 122,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 25,
-                "id": "2"
+                "id": "2",
+                "kill": 25
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 9,
-                "id": "3"
+                "id": "3",
+                "kill": 9
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 12,
-                "id": "4"
+                "id": "4",
+                "kill": 12
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 12,
-                "id": "5"
+                "id": "5",
+                "kill": 12
             },
             {
+                "nomeAntigo": "",
                 "nome": "Chessus",
-                "nomeAntigo": "",
-                "kill": 10,
-                "id": "6"
+                "id": "6",
+                "kill": 10
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 12,
-                "id": "7"
+                "id": "7",
+                "kill": 12
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "",
-                "kill": -30,
-                "id": "8"
+                "nome": "Mal",
+                "id": "8",
+                "kill": -30
             }
         ]
     },
@@ -532,28 +532,28 @@
         "total kills": 3,
         "players": [
             {
-                "nome": "Isgalamido",
                 "nomeAntigo": "Zeh",
-                "kill": 0,
-                "id": "4"
+                "nome": "Isgalamido",
+                "id": "4",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": -3,
-                "id": "7"
+                "id": "7",
+                "kill": -3
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "2"
+                "id": "2",
+                "kill": 0
             },
             {
-                "nome": "Oootsimo",
                 "nomeAntigo": "Fasano Again",
-                "kill": 0,
-                "id": "3"
+                "nome": "Oootsimo",
+                "id": "3",
+                "kill": 0
             }
         ]
     },
@@ -562,34 +562,34 @@
         "total kills": 0,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "2"
+                "id": "2",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "3"
+                "id": "3",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "4"
+                "id": "4",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "5"
+                "id": "5",
+                "kill": 0
             },
             {
-                "nome": "Zeh",
                 "nomeAntigo": "",
-                "kill": 0,
-                "id": "6"
+                "nome": "Zeh",
+                "id": "6",
+                "kill": 0
             }
         ]
     },
@@ -598,40 +598,40 @@
         "total kills": 13,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "2"
+                "id": "2",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 2,
-                "id": "3"
+                "id": "3",
+                "kill": 2
             },
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 1,
-                "id": "4"
+                "id": "4",
+                "kill": 1
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "5"
+                "id": "5",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": -3,
-                "id": "6"
+                "id": "6",
+                "kill": -3
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "UnnamedPlayer",
-                "kill": -5,
-                "id": "7"
+                "nome": "Mal",
+                "id": "7",
+                "kill": -5
             }
         ]
     },
@@ -640,40 +640,40 @@
         "total kills": 7,
         "players": [
             {
-                "nome": "Isgalamido",
                 "nomeAntigo": "Dono da Bola",
-                "kill": 1,
-                "id": "2"
+                "nome": "Isgalamido",
+                "id": "2",
+                "kill": 1
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "3"
+                "id": "3",
+                "kill": 0
             },
             {
-                "nome": "Dono da Bola",
                 "nomeAntigo": "Isgalamido",
-                "kill": 0,
-                "id": "4"
+                "nome": "Dono da Bola",
+                "id": "4",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 2,
-                "id": "5"
+                "id": "5",
+                "kill": 2
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 2,
-                "id": "6"
+                "id": "6",
+                "kill": 2
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "",
-                "kill": -2,
-                "id": "7"
+                "nome": "Mal",
+                "id": "7",
+                "kill": -2
             }
         ]
     },
@@ -682,40 +682,40 @@
         "total kills": 95,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 15,
-                "id": "2"
+                "id": "2",
+                "kill": 15
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 11,
-                "id": "3"
+                "id": "3",
+                "kill": 11
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 15,
-                "id": "4"
+                "id": "4",
+                "kill": 15
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 12,
-                "id": "5"
+                "id": "5",
+                "kill": 12
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 21,
-                "id": "6"
+                "id": "6",
+                "kill": 21
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "",
-                "kill": -5,
-                "id": "7"
+                "nome": "Mal",
+                "id": "7",
+                "kill": -5
             }
         ]
     },
@@ -724,40 +724,40 @@
         "total kills": 3,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "2"
+                "id": "2",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 1,
-                "id": "3"
+                "id": "3",
+                "kill": 1
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 2,
-                "id": "4"
+                "id": "4",
+                "kill": 2
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "5"
+                "id": "5",
+                "kill": 0
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 0,
-                "id": "6"
+                "id": "6",
+                "kill": 0
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "",
-                "kill": 0,
-                "id": "7"
+                "nome": "Mal",
+                "id": "7",
+                "kill": 0
             }
         ]
     },
@@ -766,40 +766,40 @@
         "total kills": 131,
         "players": [
             {
+                "nomeAntigo": "",
                 "nome": "Isgalamido",
-                "nomeAntigo": "",
-                "kill": 19,
-                "id": "2"
+                "id": "2",
+                "kill": 19
             },
             {
+                "nomeAntigo": "",
                 "nome": "Oootsimo",
-                "nomeAntigo": "",
-                "kill": 24,
-                "id": "3"
+                "id": "3",
+                "kill": 24
             },
             {
+                "nomeAntigo": "",
                 "nome": "Dono da Bola",
-                "nomeAntigo": "",
-                "kill": 16,
-                "id": "4"
+                "id": "4",
+                "kill": 16
             },
             {
+                "nomeAntigo": "",
                 "nome": "Assasinu Credi",
-                "nomeAntigo": "",
-                "kill": 22,
-                "id": "5"
+                "id": "5",
+                "kill": 22
             },
             {
+                "nomeAntigo": "",
                 "nome": "Zeh",
-                "nomeAntigo": "",
-                "kill": 21,
-                "id": "6"
+                "id": "6",
+                "kill": 21
             },
             {
-                "nome": "Mal",
                 "nomeAntigo": "",
-                "kill": -5,
-                "id": "7"
+                "nome": "Mal",
+                "id": "7",
+                "kill": -5
             }
         ]
     }
