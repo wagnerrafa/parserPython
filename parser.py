@@ -1,10 +1,12 @@
 import json
+
 abrir = open('Quake.txt', 'r')  #leitura do arquivo de texto
 totalKills = 0
-player = {}
 lista = []
 listaFinal = []
 i= 1
+final = {}
+
 for linha in abrir:
     linha = linha.strip()  #remover espaços em brancos
     
@@ -17,24 +19,28 @@ for linha in abrir:
         player = {}
         player['id'] = idJogador
         player['nome'] = nomeJogador
-        player['kill'] = 0        
+        player['kill'] = 0  
+        player['nomeAntigo'] = ""
         if (len(lista)) == 0:
             lista.append(player)
+           
+        else:
 
-        for elemento in lista:  #verificar se o nome já existe, depois inclui-lo
-            
-            if nomeJogador == elemento['nome']:
-                resultado = True
-                elemento['nome'] = player['nome']
-                elemento['id'] = idJogador
-                break
-            else:
-                resultado = False
-            if idJogador == elemento['id']:
-                elemento['id'] = False
-
-        if resultado == False:
-            lista.append(player)
+            for elemento in lista:  #verificar se o nome já existe, depois inclui-lo
+                
+                if nomeJogador == elemento['nome']:
+                    resultado = True
+                    elemento['nome'] = player['nome']
+                    break
+                else:
+                    resultado = False
+                if player['id'] == elemento['id'] :  #substituir nome antigo
+                    elemento['nomeAntigo'] = elemento['nome']
+                    elemento['nome'] = player['nome']
+                    resultado = True
+                    break
+            if resultado == False:
+                lista.append(player)
     if linha.count("Kill"):  #fazer a contagem de kills
         totalKills +=1
 
@@ -48,18 +54,20 @@ for linha in abrir:
             elemento['kill'] -=1
 
     if linha.count("ShutdownGame"):  #encerrar game
+        status = {}
+        listaCopia = {}
+        listaCopia = lista.copy()
+                
+        status['players'] = listaCopia
+
+        status['game'] = i
+
+        status['total kills'] = totalKills
         
-        listaFinal.append('game '+str(i))
-        listaFinal.append('total Kills '+str(totalKills))
-        listaFinal.extend(lista)
+        listaFinal.append(status)
         i +=1
         lista.clear()
         totalKills = 0
-               
-                
-for verLista in listaFinal:  #exibir lista
-    print(verLista)
-
 
 with open('listaFinal.json', 'w') as json_file:  #criar arquivo em json
     json.dump(listaFinal, json_file, indent=4)
